@@ -1,5 +1,3 @@
-/*----------------------TAGS----------------------*/
-
 html {
     scroll-behavior: smooth;
 }
@@ -74,8 +72,6 @@ li {
 ol, ul {
     padding: 0;
 }
-
-/*----------------------CLASS----------------------*/
 
 .rsschool-footer {
     padding: 10px;
@@ -152,8 +148,6 @@ ol, ul {
     margin: auto;
     width: 50%; 
 }
-
-/* ----------------------PHOTO---------------------- */
 
 .my-photo {
     width: 190px;

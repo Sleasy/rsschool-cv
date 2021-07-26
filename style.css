@@ -1,0 +1,76 @@
+/*----------------------TAGS----------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    text-align: center;
+    font: normal normal 24px/36px 'Times New Roman', Times, serif;
+    margin: 20px;
+    border: 5px solid #4B7A8D;
+    background-image: url(./img/background.jpg);
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+.navigation a {
+    color: #29444F;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration: none;
+    transition: 0.5s;
+    padding-left: 30px;
+}
+
+a {
+    color: #29444F;
+    font-style: italic;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #5393AB;
+    font-size: 28px;
+    transform: scale(1.2);
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    border: 3px solid #4B7A8D;
+    border-radius: 0px 70px 0px 70px;
+    margin: 0px 250px 0px 250px;
+    padding: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px black;
+    background-image: url(./img/background.jpg);
+    background-attachment: fixed;
+    transition: 0.5s;
+}
+
+nav:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    border-top: 8px solid #4B7A8D;
+    position: relative;
+}
+
+img, figure {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding: 0;
+}
